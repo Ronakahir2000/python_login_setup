@@ -19,4 +19,8 @@ emailLabel = Label(frame, text='Email', font=(
     'times new roman', 10, 'bold'), bg='white', fg='firebrick1')
 emailLabel.grid(row=1, column=0, sticky='w', padx=25)
 
+emailEntry = Entry(frame, width=25, font=(
+    'times new roman', 10, 'bold'), fg='white', bg='firebrick1')
+emailEntry.grid(row=2, column=0, sticky='w', padx=25)
+
 signUp_window.mainloop()
