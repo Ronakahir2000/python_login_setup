@@ -16,7 +16,7 @@ heading = Label(frame, text='CREATE AN ACCOUNT', font=(
 heading.grid(row=0, column=0, padx=10, pady=10)
 
 emailLabel = Label(frame, text='Email', font=(
-    'times new roman', 10, 'bold'), bg='white', fg='firebrick1')
+    'times new roman', 9, 'bold'), bg='white', fg='firebrick1')
 emailLabel.grid(row=1, column=0, sticky='w', padx=25)
 
 signUp_window.mainloop()
