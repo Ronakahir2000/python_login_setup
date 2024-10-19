@@ -38,11 +38,11 @@ bgLable = Label(login_window, image=bgImage)
 bgLable.place(x=0, y=0)
 
 heading = Label(login_window, text='USER LOGIN', font=(
-    'times new roman', 23, 'bold'), bg='white', fg='firebrick1')
+    'Microsoft yahei UI light', 23, 'bold'), bg='white', fg='firebrick1')
 heading.place(x=605, y=120)
 
 user_input = Entry(login_window, width=25, font=(
-    'times new roman', 11, 'bold'), bd=0, fg='firebrick1')
+    'Microsoft yahei UI light', 11, 'bold'), bd=0, fg='firebrick1')
 user_input.place(x=580, y=200)
 
 user_input.insert(0, "Username")
@@ -53,7 +53,7 @@ frame1 = Frame(login_window, width=250, height=2, bg='firebrick1')
 frame1.place(x=580, y=222)
 
 password_entry = Entry(login_window, width=25, font=(
-    'times new roman', 11, 'bold'), bd=0, fg='firebrick1')
+    'Microsoft yahei UI light', 11, 'bold'), bd=0, fg='firebrick1')
 password_entry.place(x=580, y=260)
 
 password_entry.insert(0, "Password")
@@ -70,8 +70,8 @@ openEyeButton.place(x=800, y=255)
 
 forgetButton = Button(login_window, text='forgot password?',
                       bd=0, bg='white', activebackground='white', cursor='hand2', font=(
-                          'times new roman', 11, 'bold'), fg='firebrick1', activeforeground='firebrick1')
-forgetButton.place(x=715, y=295)
+                          'Microsoft yahei UI light', 11, 'bold'), fg='firebrick1', activeforeground='firebrick1')
+forgetButton.place(x=705, y=295)
 
 loginButton = Button(login_window, text="Login", font=(
     'open sans', 16, 'bold'), fg='white',
@@ -83,15 +83,16 @@ orLabel = Label(login_window, text='-------------- OR -------------',
 orLabel.place(x=583, y=400)
 
 facebook_logo = PhotoImage(file='facebook.png')
-fbLabel = Label(login_window, image=facebook_logo, bg='white')
+fbLabel = Label(login_window, image=facebook_logo, bg='white', cursor='hand2')
 fbLabel.place(x=640, y=440)
 
 google_logo = PhotoImage(file='google.png')
-gglLabel = Label(login_window, image=google_logo, bg='white')
+gglLabel = Label(login_window, image=google_logo, bg='white', cursor='hand2')
 gglLabel.place(x=690, y=440)
 
 twitter_logo = PhotoImage(file='twitter.png')
-twitterLabel = Label(login_window, image=twitter_logo, bg='white')
+twitterLabel = Label(login_window, image=twitter_logo,
+                     bg='white', cursor='hand2')
 twitterLabel.place(x=740, y=440)
 
 signUpLabel = Label(login_window, text="don't have an account?",
