@@ -51,4 +51,8 @@ Ckbutton = Checkbutton(frame, text="I agree to terms and conditions", font=(
     'Microsoft yahei UI light', 9, 'bold'), fg="firebrick1", bg='white', activebackground='white', activeforeground='firebrick1', cursor='hand2')
 Ckbutton.grid(row=9, column=0, padx=15, pady=10)
 
+Signupbutton = Button(frame, text='Signup', font=(
+    'open sans', 16, 'bold'), bd=0, bg='firebrick1', fg='white', activebackground='firebrick1', activeforeground='white', width=17)
+Signupbutton.grid(row=10, column=0, pady=10)
+
 signUp_window.mainloop()
