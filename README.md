@@ -1,4 +1,4 @@
-i am working on sign up page using core python itself without using html, css and javascript.
+i am working on sign up and sign in page using core python itself without using html, css and javascript.
 for GUI, i am leveraging tkinter library of python.
 
 following are the screenshots of work done by me.
