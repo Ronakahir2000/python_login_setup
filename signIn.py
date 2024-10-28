@@ -26,6 +26,11 @@ def show():
     openEyeButton.config(command=hide)
 
 
+def sign_up():
+    login_window.destroy()
+    import signUp
+
+
 # GUI part
 login_window = Tk()
 login_window.geometry('990x660+50+10')
@@ -101,7 +106,7 @@ signUpLabel.place(x=590, y=500)
 
 newAccountButton = Button(login_window, text="create new one", font=(
     'open sans', 9, 'bold', 'underline'), fg='blue', bg='white', activeforeground='blue', activebackground='white',
-    cursor='hand2', bd=0)
+    cursor='hand2', bd=0, command=sign_up)
 newAccountButton.place(x=727, y=500)
 
 login_window.mainloop()
